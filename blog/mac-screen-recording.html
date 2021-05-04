@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MacOS screen recording with in-app audio SOLVED. </title>
+		<meta charset="utf-8" />
+		<link rel="icon" href="images/UC.svg" type="image/gif" >
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+			<!-- Header -->
+			<header id="header" class="alt">
+				<a href="../portfolio/index.html" class="logo"><strong>Utkarsh</strong> <span>Chourasia</span></a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Menu -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="../portfolio/index.html">Home</a></li>
+					<li><a href="../portfolio/aboutme.html">About Me</a></li>
+					<li><a href="../blog/index.html">Blog</a></li>
+				</ul>
+			</nav>
+			<br>
+			<br>
+			<br>
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>MacOS screen recording with in-app audio SOLVED.</h1>
+							<p>In my experience, the native screen recorder of MacOS is quite simple and effective. The only drop back of it is, it does not record in-app audio. There might be other software out there that can be used but they are either paid or have complex usage or your SSD storage is running low or maybe all.</p>
+							<p>In this ‘how-to’ guide let’s solve all the above problems.</p>
+							<p><b>Step 1: </b>Download the <a href="https://vb-audio.com/Cable/"><b>'VB Cable'</b></a> application and install it.</p>
+							<span class="image"><img src="images/screen-recording-macos/vb-cable-min.png" alt="" width="50%" /></span>
+							<p><b>Step 2: </b>After installation, open <b>Audio MIDI Setup</b>.</p>
+							<span class="image"><img src="images/screen-recording-macos/audio-midi-min.png" alt="" width="70%" /></span>
+							<p><b>Step 3: </b>Click on the + icon below and choose the <b>multi-output device</b> option. Now,</p>
+							<ul>
+								<li>Check the ‘use’ box of <b>VB cable</b> and your <b>default output device</b>(external headphones in my case).</li>
+								<li>Uncheck drift connect from all. Doesn’t really change anything in my usage.</li>
+								<li>Set <b>‘Master Device’</b> to the <b>default output device.</b></li>
+								<li>Set <b>‘Sample Rate’</b> at <b>44.1kHz</b>.</li>
+								<li>Also, you can rename it to <b>‘Output: External + VB’</b> to have a differentiate from other audio devices.</li>
+							</ul>
+							<span class="image"><img src="images/screen-recording-macos/output-min.png" alt="" width="70%" /></span>
+							<p><b>Step 4: </b>Alright now, click on the + icon below and choose the <b>aggregate device</b> option. Now,</p>
+							<ul>
+								<li>Check the ‘use’ box of <b>VB cable</b> <br><b>Optional:</b> Also check your microphone(MacBook pro microphone in my case) to include your audio as well.</li>
+								<li>Uncheck drift connect from all. Doesn’t really change anything in my usage.</li>
+								<li>Set <b>‘Clock Source’</b> to the <b>default microphone device</b>.</li>
+								<li>Set <b>‘Sample Rate’</b> at <b>44.1kHz</b>.</li>
+								<li>Also, you can rename it to <b>‘Input: External + VB + Mic’</b> to have a distinction from other audio devices.</li>
+							</ul>
+							<span class="image"><img src="images/screen-recording-macos/input.png" alt="" width="70%" /></span>
+							<p>Now all the one-time settings are set and we are ready to go.</p>
+							<p><b>Step 5: </b> Change your output device to <b>‘Output: External + VB’</b> from menubar/sound. <br> <b>NOTE:</b> Before changing the output device, set the output volume beforehand.</p>
+							<span class="image"><img src="images/screen-recording-macos/volume.png" alt="" width="80%" /></span>
+							<p><b>Step 6: </b>Open the native screen recorder with <b>Cmd + Shift + 5</b>. Set it to the recording option. <br> Then <b>‘Options’</b> tab will appear. Click and set <b>microphone</b> to <b>'Input: External + VB + Mic’</b></p>
+							<span class="image"><img src="images/screen-recording-macos/screenshot-menu-record-min.jpeg" alt="" width="50%" /></span>
+							<p>Now can record anything, from your discord video call to recording your online lecture.</p>
+							<p>Great Thanks for reading. <br>
+								Wanna know how the magic happened? Stay with me.</p>
+								<span class="image"><img src="images/screen-recording-macos/Audio-channel.png" alt="" width="70%" /></span>
+								<p>After setting up the recording configuration the screen audio is transmitted via the VB cable. With the help of Audio MIDI Setup, both the audio from the VB cable and microphone are treated as one parallel stream of audio in the input channel. This audio is channelized to the recording's input system.</p>
+								<p>Hope this was helpful. ; )</p>
+							<hr>
+						</div>
+					</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="mailto:5.utkarshc@gmail.com" class="icon solid style2 fa-envelope fa-lg" target="_blank" ><span class="label">Email</span></a></li> 
+					<li><a href="https://www.linkedin.com/in/5utkarshc/" class="style2 brands icon fab fa-linkedin fa-lg" target="_blank" ><span class="label">LinkedIn</span></a></li> 
+					<li><a href="https://discord.gg/qCcyWn4PV5" class="style2 brands icon fab fa-discord fa-lg" target="_blank" ><span class="label">Discord</span></a></li> 
+					<li><a href="https://github.com/JammUtkarsh" class="icon brands style2 fa-github fa-lg" target="_blank" ><span class="label">GitHub</span></a></li> 
+					<li><a href="https://twitter.com/JammUtkarsh" class="icon brands style2 fa-twitter fa-lg" target="_blank" ><span class="label">Twitter</span></a></li> 
+				</ul>
+				<br>
+				<ul class="copyright">
+					<li>&copy; Utkarsh Chourasia</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+				</ul>
+			</div>
+		</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
