@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jammutkarsh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://utkarshchourasia.in
+  * I am jammutkarsh (https://keybase.io/jammutkarsh) on keybase.
+  * I have a public key ASDuIKg1hXGt-PGJFXdBvttWJU_ovFJedYO2RyocgZZd3wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120ee20a8358571adf8f189157741bedb56254fe8bc525e7583b6472a1c81965ddf0a",
+      "host": "keybase.io",
+      "kid": "0120ee20a8358571adf8f189157741bedb56254fe8bc525e7583b6472a1c81965ddf0a",
+      "uid": "46a860daffbf349695df413ac4de3c19",
+      "username": "jammutkarsh"
+    },
+    "merkle_root": {
+      "ctime": 1620274252,
+      "hash": "91e733ccb496a3c802f8110de7aa4c1c24088ae94ab2cc58e0b56b880021013dfc00503182c080a9a588e39933d40b25689c7642b82f38eb79e856d31d4d193e",
+      "hash_meta": "f35975b94a53daf207e722abca04973b8ae0cb8d1a21e0a6c4f30ec5e20d8edc",
+      "seqno": 19849933
+    },
+    "service": {
+      "entropy": "rQXhcj1fo1vRGUpljfqH5dQu",
+      "hostname": "utkarshchourasia.in",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1620274286,
+  "expire_in": 504576000,
+  "prev": "9e7bdbd947b57159a50fa3d392e0fef8e3b80032ee863df67894cb2121b670ff",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg7iCoNYVxrfjxiRV3Qb7bViVP6LxSXnWDtkcqHIGWXd8Kp3BheWxvYWTESpcCB8Qgnnvb2Ue1cVmlD6PTkuD++OO4ADLuhj32eJTLISG2cP/EIPfhqI/Y3hAAxjADXkZ24+xuHv0SvK94+pkcBkR9ekWIAgHCo3NpZ8RA5BddaqO7a106FxXSrq+fvQC0xySwHthVFHeAMrve58ZQoRFUBahGpTsHHgrtx2ZAr9b65Nb8egQe9wfHfXlTDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIB8sdku/JHY4Nm8gPCmAAwG682G1Oq+MDZhtnrdDIN7xo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jammutkarsh
+
+==================================================================
